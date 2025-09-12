@@ -1,17 +1,34 @@
-import { Link } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom";
+import './HomePage.css'
 
 export default function HomePage() {
+  const navigate = useNavigate();
+
+  function handleSelect(e: React.ChangeEvent<HTMLSelectElement>) {
+    const value = e.target.value;
+    if (value) navigate(value);
+  }
+
   return (
     <>
-    <nav>
-      <Link to={"/auth/user/Register"}>Register</Link>
-      <Link to={"/auth/user/Login"}>Login</Link>
-      <Link to={"/auth/employee/Register"}>Register</Link>
-      <Link to={"/auth/employee/Login"}>Login</Link>
-    </nav>
-     
-     
+      <nav className="LinkClass">
+        <select onChange={handleSelect} defaultValue="">
+          <option value="" disabled>
+            Select Role
+          </option>
+          <option value="/auth/user/Login">User</option>
+          <option value="/auth/employee/Login">Employee</option>
+        </select>
+      </nav>
+
+      <div className="page-content">
+        <h1>Welcome to The Oxford Library</h1>
+        <p>
+          Learn, grow, and manage your journey with us.  
+          Explore our resources and connect with opportunities.
+        </p>
+        <button>Get Started</button>
+      </div>
     </>
-  )
+  );
 }

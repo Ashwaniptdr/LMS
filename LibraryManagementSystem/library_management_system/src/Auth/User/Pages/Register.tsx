@@ -14,7 +14,7 @@ function Register() {
           <input type="Phone"  placeholder="Phone" required /><br></br>
           <label>User Email : </label>
           <input type="Email"  placeholder="Email"  required/><br></br>
-          <label>Mamber Type</label>
+          <label>Member Type</label>
           <select>
             <option>Standard</option>
             <option>Premium</option>

@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom'
 import Card from '../../../Shared/Component/Common/Card'
 
 function Login() {
@@ -16,6 +17,13 @@ function Login() {
              <button type="submit">Login</button>
            </fieldset>
          </form>
+
+          <p style={{ marginTop: "15px" }}>
+          New User?{" "}
+          <Link to={"/auth/employee/Register"} style={{ color: "blue", fontWeight: "bold" }}>
+            Register here
+          </Link>
+        </p>
       </Card>
       </>
   )
