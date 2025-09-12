@@ -1,0 +1,31 @@
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 20px 24px;
+  margin: 16px 0;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+  max-width: 600px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.25rem;
+  color: #333;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 6px;
+}
+
+.card > div {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
