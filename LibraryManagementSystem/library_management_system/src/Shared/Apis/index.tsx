@@ -1,4 +1,4 @@
-const API_ROOT = "http://localhost:7050/api/";
+const API_ROOT = "https://localhost:7050/api/";
 
 export async function get<T>(url: string) {
   return await request<T>("get", url);
