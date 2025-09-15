@@ -1,0 +1,6 @@
+@LibraryMSApi_HostAddress = http://localhost:5298
+
+GET {{LibraryMSApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
