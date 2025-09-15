@@ -3,44 +3,11 @@ import { useNavigate, Link } from "react-router-dom";
 import { post } from "../../../Shared/Apis";
 import Card from "../../../Shared/Component/Common/Card";
 
-<<<<<<< HEAD
 
-function Login() {
-  return (
-  <>
-   <Card title={"User Login"} >
-
-    <form>
-        <fieldset>
-          <legend>Form</legend>
-          <label>User Email : </label>
-          <input type="Email"  placeholder="Email"  required/><br></br>
-          <label>User Password : </label>
-          <input type="Password"  placeholder="Password" required /><br></br>
-          <button type="submit">Login </button>
-        </fieldset>
-      </form>
-      <p style={{ marginTop: "15px" }}>
-          New User?{" "}
-          <Link
-            to="/user/home"
-            style={{ color: "green", fontWeight: "bold" }}
-          >
-            Go to User Dashboard (Test)
-          </Link>
-          <Link to={"/auth/user/Register"} style={{ color: "blue", fontWeight: "bold" }}>
-            Register here
-          </Link>
-          
-        </p>
-   </Card>
-   </>
-  )
-=======
 interface LoginForm {
   email: string;
   password: string;
->>>>>>> f7fd5c66dd7ddaed6c636c36452b1fd6ec62eb13
+
 }
 
 function Login() {
@@ -86,6 +53,7 @@ function Login() {
 
       <p style={{ marginTop: "15px" }}>
         New User?{" "}
+         <Link to="/userdashboard/home">User Dashboard</Link>
         <Link to="/auth/user/Register" style={{ color: "blue", fontWeight: "bold" }}>
           Register here
         </Link>

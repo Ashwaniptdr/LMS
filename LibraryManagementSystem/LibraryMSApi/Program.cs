@@ -12,7 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(
-        "server=DESKTOP-D2IRBPT;database=LibraryDB;TrustServerCertificate=true ;trusted_Connestion=True"));
+        "server=ASHVIN\\MSSQLSERVER01;database=LibraryDB;TrustServerCertificate=true ;trusted_Connestion=True"));
 
 var app = builder.Build();
 

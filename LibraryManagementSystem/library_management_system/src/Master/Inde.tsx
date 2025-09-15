@@ -1,13 +1,14 @@
 
 import { Route, Routes } from "react-router-dom";
 import UserDashboard from "./User"; // ✅ make sure ./User/index.tsx exists
+import EmployeeDashboard from "./Employee";
 
 function Master() {
   return (
     <div>
       <Routes>
-        {/* User Dashboard */}
-        <Route path="userdashboard/*" element={<UserDashboard />} />
+        <Route path="/employeedashboard/*" element={<EmployeeDashboard />} /> 
+        <Route path="/userdashboard/*" element={<UserDashboard />} /> 
       </Routes>
     </div>
   );

@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\",
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|c:\\users\\admin\\desktop\\my fold\\ashvindemo\\vitereact\\democlassstruct\\copywebapi\\librarymsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|c:\\users\\admin\\desktop\\my fold\\ashvindemo\\vitereact\\democlassstruct\\copywebapi\\librarymsapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|c:\\users\\hp\\desktop\\library\\lms\\librarymanagementsystem\\librarymsapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|c:\\users\\admin\\desktop\\my fold\\ashvindemo\\vitereact\\democlassstruct\\copywebapi\\librarymsapi\\librarymsapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|solutionrelative:librarymsapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|c:\\users\\hp\\desktop\\library\\lms\\librarymanagementsystem\\librarymsapi\\controller\\employeeauth\\employeeregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|solutionrelative:controller\\employeeauth\\employeeregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|c:\\users\\admin\\desktop\\my fold\\ashvindemo\\vitereact\\democlassstruct\\copywebapi\\librarymsapi\\controller\\employeeauth\\employeelogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|c:\\users\\hp\\desktop\\library\\lms\\librarymanagementsystem\\librarymsapi\\controller\\employeeauth\\employeelogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|solutionrelative:controller\\employeeauth\\employeelogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|c:\\users\\admin\\desktop\\my fold\\ashvindemo\\vitereact\\democlassstruct\\copywebapi\\librarymsapi\\controller\\userauth\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|c:\\users\\hp\\desktop\\library\\lms\\librarymanagementsystem\\librarymsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|c:\\users\\hp\\desktop\\library\\lms\\librarymanagementsystem\\librarymsapi\\librarymsapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|solutionrelative:librarymsapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|c:\\users\\hp\\desktop\\library\\lms\\librarymanagementsystem\\librarymsapi\\controller\\userauth\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|solutionrelative:controller\\userauth\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|c:\\users\\admin\\desktop\\my fold\\ashvindemo\\vitereact\\democlassstruct\\copywebapi\\librarymsapi\\controller\\userauth\\userrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|c:\\users\\hp\\desktop\\library\\lms\\librarymanagementsystem\\librarymsapi\\controller\\userauth\\userrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|solutionrelative:controller\\userauth\\userrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|c:\\users\\admin\\desktop\\my fold\\ashvindemo\\vitereact\\democlassstruct\\copywebapi\\librarymsapi\\controller\\employeeauth\\employeeregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BEBEF9E-7509-4534-969D-77531C9A1D8D}|LibraryMSApi.csproj|solutionrelative:controller\\employeeauth\\employeeregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,53 +38,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LibraryMSApi",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\LibraryMSApi.csproj",
-              "RelativeDocumentMoniker": "LibraryMSApi.csproj",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\LibraryMSApi.csproj",
-              "RelativeToolTip": "LibraryMSApi.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-11T12:31:27.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserLoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\Controller\\UserAuth\\UserLoginController.cs",
-              "RelativeDocumentMoniker": "Controller\\UserAuth\\UserLoginController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\Controller\\UserAuth\\UserLoginController.cs",
-              "RelativeToolTip": "Controller\\UserAuth\\UserLoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T12:17:57.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserRequestController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\Controller\\UserAuth\\UserRequestController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\Controller\\UserAuth\\UserRequestController.cs",
               "RelativeDocumentMoniker": "Controller\\UserAuth\\UserRequestController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\Controller\\UserAuth\\UserRequestController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\Controller\\UserAuth\\UserRequestController.cs",
               "RelativeToolTip": "Controller\\UserAuth\\UserRequestController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T12:17:31.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T12:17:31.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "EmployeeLoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\Controller\\EmployeeAuth\\EmployeeLoginController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\Controller\\EmployeeAuth\\EmployeeLoginController.cs",
               "RelativeDocumentMoniker": "Controller\\EmployeeAuth\\EmployeeLoginController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\Controller\\EmployeeAuth\\EmployeeLoginController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\Controller\\EmployeeAuth\\EmployeeLoginController.cs",
               "RelativeToolTip": "Controller\\EmployeeAuth\\EmployeeLoginController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -93,11 +67,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "EmployeeRegisterController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\Controller\\EmployeeAuth\\EmployeeRegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\Controller\\EmployeeAuth\\EmployeeRegisterController.cs",
               "RelativeDocumentMoniker": "Controller\\EmployeeAuth\\EmployeeRegisterController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\Controller\\EmployeeAuth\\EmployeeRegisterController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\Controller\\EmployeeAuth\\EmployeeRegisterController.cs",
               "RelativeToolTip": "Controller\\EmployeeAuth\\EmployeeRegisterController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -106,29 +80,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-11T11:57:24.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-11T11:48:13.847Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserLoginController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\Controller\\UserAuth\\UserLoginController.cs",
+              "RelativeDocumentMoniker": "Controller\\UserAuth\\UserLoginController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\Controller\\UserAuth\\UserLoginController.cs",
+              "RelativeToolTip": "Controller\\UserAuth\\UserLoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T12:17:57.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LibraryMSApi",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\LibraryMSApi.csproj",
+              "RelativeDocumentMoniker": "LibraryMSApi.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\LibraryMSApi.csproj",
+              "RelativeToolTip": "LibraryMSApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-11T12:31:27.598Z"
             }
           ]
         }
