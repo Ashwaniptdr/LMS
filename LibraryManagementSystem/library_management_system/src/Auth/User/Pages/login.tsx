@@ -19,9 +19,16 @@ function Login() {
       </form>
       <p style={{ marginTop: "15px" }}>
           New User?{" "}
+          <Link
+            to="/user/home"
+            style={{ color: "green", fontWeight: "bold" }}
+          >
+            Go to User Dashboard (Test)
+          </Link>
           <Link to={"/auth/user/Register"} style={{ color: "blue", fontWeight: "bold" }}>
             Register here
           </Link>
+          
         </p>
    </Card>
    </>
