@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +65,80 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+
+/* index.css */
+
+:root {
+  --primary-color: #1d4ed8;     /* Blue */
+  --secondary-color: #f59e0b;   /* Amber */
+  --accent-color: #dc2626;      /* Red */
+  --text-color: #1f2937;        /* Gray-800 */
+  --background-color: #f9fafb;  /* Gray-50 */
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.header {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.logout-button {
+  padding: 0.5rem 1rem;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.sidebar {
+  width: 16rem;
+  background-color: #1f2937;
+  color: white;
+  padding: 1rem;
+  height: 100vh;
+}
+
+.sidebar-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-nav a {
+  margin-bottom: 0.75rem;
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s ease;
+}
+
+.sidebar-nav a:hover {
+  color: var(--secondary-color);
+}
+
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.dashboard-main {
+  flex-grow: 1;
+  padding: 2rem;
 }

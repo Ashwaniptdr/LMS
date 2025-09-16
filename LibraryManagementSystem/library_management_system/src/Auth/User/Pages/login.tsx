@@ -19,7 +19,8 @@ function Login() {
 
     if (response) {
       alert("Login successful!");
-      navigate("/user/dashboard"); 
+      localStorage.setItem("userEmail", data.email); 
+    navigate("/userdashboard");  
     } else {
       alert("Invalid email or password");
     }
@@ -53,7 +54,7 @@ function Login() {
 
       <p style={{ marginTop: "15px" }}>
         New User?{" "}
-         <Link to="/userdashboard/home">User Dashboard</Link>
+         {/* <Link to="/userdashboard/home">User Dashboard</Link> */}
         <Link to="/auth/user/Register" style={{ color: "blue", fontWeight: "bold" }}>
           Register here
         </Link>

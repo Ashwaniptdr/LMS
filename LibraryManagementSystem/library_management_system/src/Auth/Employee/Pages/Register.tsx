@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { post } from "../../../Shared/Apis";
 import Card from '../../../Shared/Component/Common/Card';
 
-type RegisterForm = {
+interface RegisterForm {
   name: string;
   phone: string;
   email: string;

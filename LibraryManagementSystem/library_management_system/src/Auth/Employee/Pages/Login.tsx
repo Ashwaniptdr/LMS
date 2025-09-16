@@ -3,23 +3,34 @@ import { useNavigate, Link } from "react-router-dom";
 import { post } from "../../../Shared/Apis";
 import Card from "../../../Shared/Component/Common/Card";
 
-type LoginForm = {
+// Expected response from the backend
+type LoginResponse = {
+  message: string;
   email: string;
-  password: string;
 };
 
+interface LoginForm {
+  email: string;
+  password: string;
+}
+
 function Login() {
-  const { register, handleSubmit,  } = useForm<LoginForm>();
+  const { register, handleSubmit } = useForm<LoginForm>();
   const navigate = useNavigate();
 
   const onSubmit = async (data: LoginForm) => {
-    const response = await post<string>("EmployeeLogin", data);
-    
-    if (response) {
-      alert("Login successful!");
-      navigate("/dashboard"); 
-    } else {
-      alert("Invalid email or password");
+    try {
+      const response = await post<LoginResponse>("EmployeeLogin", data);
+
+      if (response) {
+        alert(response.message); // Show success message from backend
+        navigate("/employeedashboard");  // Redirect on success
+      } else {
+        alert("Invalid email or password"); // Show error message
+      }
+    } catch (error) {
+      alert("An error occurred during login.");
+      console.error("Login error:", error);
     }
   };
 
@@ -35,7 +46,7 @@ function Login() {
             placeholder="Email"
             {...register("email", { required: true })}
           />
-          
+
           <br />
 
           <label>Employee Password:</label>
@@ -44,7 +55,7 @@ function Login() {
             placeholder="Password"
             {...register("password", { required: true })}
           />
-          
+
           <br />
 
           <button type="submit">Login</button>
@@ -53,7 +64,8 @@ function Login() {
 
       <p style={{ marginTop: "15px" }}>
         New User?{" "}
-        <Link to="/employeedashboard/home">Employee DashBoard</Link>
+       
+        
         <Link to="/auth/employee/Register" style={{ color: "blue", fontWeight: "bold" }}>
           Register here
         </Link>
