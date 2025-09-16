@@ -17,13 +17,21 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LibraryMSApi
 build_property.RootNamespace = LibraryMSApi
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Admin\Desktop\MY FOLD\Ashvindemo\viteReact\demoClassStruct\CopyWebapi\LibraryMSApi\
+=======
+build_property.ProjectDir = C:\Users\HP\Desktop\Library\LMS\LibraryManagementSystem\LibraryMSApi\
+>>>>>>> 0e824af48b6bb1f4ab2bc2965e76dbe5cf0f2799
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\MY FOLD\Ashvindemo\viteReact\demoClassStruct\CopyWebapi\LibraryMSApi
+=======
+build_property.MSBuildProjectDirectory = C:\Users\HP\Desktop\Library\LMS\LibraryManagementSystem\LibraryMSApi
+>>>>>>> 0e824af48b6bb1f4ab2bc2965e76dbe5cf0f2799
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 

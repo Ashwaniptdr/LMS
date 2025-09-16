@@ -4,6 +4,7 @@
     "title": "LibraryMSApi",
     "version": "1.0"
   },
+<<<<<<< HEAD
   "paths": {
     "/WeatherForecast": {
       "get": {
@@ -72,4 +73,8 @@
       }
     }
   }
+=======
+  "paths": { },
+  "components": { }
+>>>>>>> 0e824af48b6bb1f4ab2bc2965e76dbe5cf0f2799
 }

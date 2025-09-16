@@ -5,6 +5,9 @@ import Auth from './Auth'
 
 import HomePage from './Home/Pages/Home'
 
+import UserDashboard from './Master/User'
+import EmployeeDashboard from './Master/Employee'
+
 
 
 
@@ -17,6 +20,9 @@ function App() {
       <Link to={"/auth/employee/Register"}>Register</Link>
       <Link to={"/auth/employee/Login"}>Login</Link> */}
       <Link to={"/home/pages/Homepage"}>Home</Link>
+       {/* <Link to="/userdashboard/home">User Dashboard</Link> */}
+
+      
 
 
      </nav>
@@ -24,6 +30,8 @@ function App() {
       <Routes>
         <Route path='/home/*' element={<HomePage/>} />
        <Route path="/auth/*" element={<Auth/>} />
+       <Route path="/userdashboard/*" element={<UserDashboard />} />    
+       <Route path="/employeedashboard/*" element={<EmployeeDashboard />} />    
 
       </Routes>
      </div>
@@ -32,3 +40,8 @@ function App() {
 }
 
 export default App
+
+
+
+
+

@@ -3,9 +3,11 @@ import { useNavigate, Link } from "react-router-dom";
 import { post } from "../../../Shared/Apis";
 import Card from "../../../Shared/Component/Common/Card";
 
+
 interface LoginForm {
   email: string;
   password: string;
+
 }
 
 function Login() {
@@ -51,6 +53,7 @@ function Login() {
 
       <p style={{ marginTop: "15px" }}>
         New User?{" "}
+         <Link to="/userdashboard/home">User Dashboard</Link>
         <Link to="/auth/user/Register" style={{ color: "blue", fontWeight: "bold" }}>
           Register here
         </Link>

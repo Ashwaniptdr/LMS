@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\LibraryMSApi.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\LibraryMSApi.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Admin\\Desktop\\MY FOLD\\Ashvindemo\\viteReact\\demoClassStruct\\CopyWebapi\\LibraryMSApi\\obj\\",
+=======
+    "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\LibraryMSApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\LibraryMSApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\LibraryMSApi.csproj",
+        "projectName": "LibraryMSApi",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\LibraryMSApi.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Library\\LMS\\LibraryManagementSystem\\LibraryMSApi\\obj\\",
+>>>>>>> 0e824af48b6bb1f4ab2bc2965e76dbe5cf0f2799
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 0e824af48b6bb1f4ab2bc2965e76dbe5cf0f2799
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -88,7 +106,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 0e824af48b6bb1f4ab2bc2965e76dbe5cf0f2799
         }
       }
     }

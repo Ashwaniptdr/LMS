@@ -53,6 +53,7 @@ function Login() {
 
       <p style={{ marginTop: "15px" }}>
         New User?{" "}
+        <Link to="/employeedashboard/home">Employee DashBoard</Link>
         <Link to="/auth/employee/Register" style={{ color: "blue", fontWeight: "bold" }}>
           Register here
         </Link>
