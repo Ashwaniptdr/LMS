@@ -19,8 +19,8 @@ function Login() {
 
     if (response) {
       alert("Login successful!");
-      localStorage.setItem("userEmail", data.email); 
-    navigate("/userdashboard");  
+
+      navigate("/UserDashboard");
     } else {
       alert("Invalid email or password");
     }

@@ -1,7 +1,8 @@
 
 import { Route, Routes } from "react-router-dom";
-import UserDashboard from "./User"; // ✅ make sure ./User/index.tsx exists
+
 import EmployeeDashboard from "./Employee";
+import UserDashboard from "./User/Dashbord/Pages/UserDashboard";
 
 function Master() {
   return (

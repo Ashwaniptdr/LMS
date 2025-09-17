@@ -1,17 +1,13 @@
-// components/BookList.tsx
-
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";  // <-- import useNavigate
 import bookService from "../services/bookService";
 import type { Book } from "../services/Book";
 import { DataGrid } from "../../../../Shared/Component/Grid";
 
-interface Props {
-  onEdit: (book: Book) => void;
-}
-
-const BookList: React.FC<Props> = ({ onEdit }) => {
+const BookList: React.FC = () => {
   const [books, setBooks] = useState<Book[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
+  const navigate = useNavigate();  // <-- initialize navigate
 
   const fetchBooks = async () => {
     setLoading(true);
@@ -40,9 +36,13 @@ const BookList: React.FC<Props> = ({ onEdit }) => {
     }
   };
 
+  // New edit handler which navigates to the edit page
+  const handleEdit = (book: Book) => {
+    navigate(`/books/edit/${book.id}`);  // Adjust this route as per your routing config
+  };
+
   if (loading) return <div>Loading...</div>;
 
-  
   const columns = [
     { field: "id", header: "ID" },
     { field: "name", header: "Name" },
@@ -51,7 +51,7 @@ const BookList: React.FC<Props> = ({ onEdit }) => {
     { field: "edition", header: "Edition" },
     { field: "category", header: "Category" },
     { field: "price", header: "Price" },
-    { caption: "Edit", onClick: onEdit },
+    { caption: "Edit", onClick: handleEdit },
     { caption: "Delete", onClick: (b: Book) => handleDelete(b.id) },
   ];
 

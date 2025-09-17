@@ -23,10 +23,10 @@ function Login() {
       const response = await post<LoginResponse>("EmployeeLogin", data);
 
       if (response) {
-        alert(response.message); // Show success message from backend
-        navigate("/employeedashboard");  // Redirect on success
+        alert(response.message); 
+        navigate("/employeedashboard");  
       } else {
-        alert("Invalid email or password"); // Show error message
+        alert("Invalid email or password"); 
       }
     } catch (error) {
       alert("An error occurred during login.");

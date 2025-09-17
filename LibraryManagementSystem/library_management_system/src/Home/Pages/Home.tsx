@@ -27,7 +27,7 @@ export default function HomePage() {
           Learn, grow, and manage your journey with us.  
           Explore our resources and connect with opportunities.
         </p>
-        <button>Get Started</button>
+        
       </div>
     </>
   );

@@ -1,16 +1,18 @@
-import { Route, Routes } from "react-router-dom"
-import Dashboard from "./Dashbord"
+// import React from 'react'
+// import { Route, Routes } from 'react-router-dom'
+// import BookForm from './Dashbord/Component/BookForm'
+// import BookList from './Dashbord/Component/BookList'
 
+// function DashBoard() {
+//   return (
+//     <>
+//     <Routes>
+//         <Route path='bookFrorm' element={<BookForm/>} />
+//          <Route path='bookList' element={<BookList/>} />
+//     </Routes>
+    
+//     </>
+//   )
+// }
 
-
-function UserDashboard() {
-  return (
-    <>
-    <Routes>
-      <Route path="dashbord/*" element={< Dashboard/>} />
-    </Routes>
-    </>
-  )
-}
-
-export default UserDashboard
+// export default DashBoard

@@ -3,7 +3,9 @@ Create Database LibraryDB;
   use LibraryDB;
   Go
        _____Book Table______
-
+	   select * from Users
+	   Select * from Employees
+	   Select * From Books
 
      create Table Books(
 	     BookId int identity(1,1) primary key,
@@ -52,3 +54,14 @@ Create Database LibraryDB;
          FOREIGN KEY (UserId) REFERENCES Users(UserId),
          FOREIGN KEY (BookId) REFERENCES Books(BookId)
      );
+
+
+	 Create table [Users](
+     UserId int identity(1,1) primary key,
+     [Name] nvarchar (250) not null,
+     Phone nvarchar (12) not null,
+     Email nvarchar (250) not null,
+     [Password] nvarchar (250) not null,
+     MemberType nvarchar (250) check (MemberType IN ('standard','Premium')),
+     UNIQUE (Email) 
+ );

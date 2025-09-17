@@ -7,8 +7,8 @@ function DashBoard() {
   return (
     <>
     <Routes>
-        <Route path='' element={<BookForm/>} />
-         <Route path='' element={<BookList/>} />
+        <Route path='bookFrorm' element={<BookForm/>} />
+         <Route path='bookList' element={<BookList/>} />
     </Routes>
     
     </>
